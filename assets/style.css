@@ -106,6 +106,13 @@ body {
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
+
+.nav-link.active-tag {
+	background-color: #BEB45A;
+	color: #000;
+	border-radius:0 ;
+}
+
 .nav-pills .nav-link {
 	color: #000
 }
