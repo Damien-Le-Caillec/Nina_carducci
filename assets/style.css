@@ -114,7 +114,8 @@ body {
 }
 
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	cursor: pointer;
 }
 .item-column {
 	position: relative;
@@ -251,6 +252,12 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
+
+.carousel-control-prev .visually-hidden,
+.carousel-control-next .visually-hidden {
+  display: none !important;
+}
+
 
 @media all and (max-width: 1180px) {
 	.picture {
